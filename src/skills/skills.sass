@@ -1,0 +1,58 @@
+@import ../variables.sass
+
+$skillPointWidth: 5mm
+$skillPointHeight: 2mm
+$translateCompensation: -13px
+
+#Skills
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  justify-items: start
+  font-weight: bold
+
+  #OtherSkills
+    grid-column: 1 / 4
+
+    h5
+      display: inline-block
+      margin: 3px 0 0 0
+      font-size: 9pt
+      font-weight: bold
+
+    span
+      padding-left: 4px
+      font-size: 9pt
+
+
+  .Skill
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    margin: 4px
+    position: relative
+
+    *
+      display: inline-block
+
+    .SkillLabel
+      padding-left: 10px
+      font-size: 11pt
+
+    .SkillPoint
+      border:
+        top: 1px solid #aaa
+        bottom: 1px solid #aaa
+
+    .SkillPointFull
+      width: $skillPointWidth
+      height: $skillPointHeight
+      background: $primary-background
+      position: relative
+      top: 0
+
+    .SkillPointEmpty
+      width: $skillPointWidth
+      height: $skillPointHeight
+      background: $secondary-background
+      position: relative
+      top: 0

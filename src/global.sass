@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;900&display=swap')
+@import ./variables.sass
+
+html
+  font-size: 9pt
+  color: #043260
+
+*
+  font-family: Raleway, sans-serif
+  font-weight: 400
+
+h1, h2, h3, h4, h5, strong
+  font-weight: bold
+
+a
+  color: $primary-background
+
+.only-print
+  display: none
+
+  @media print
+    display: inline
+
+body 
+  margin: 0
+  text-align: center
+  background: #eee
+
+  @media print
+    background: none
+
+.Highlight
+  color: blue
+
+ul
+  list-style: square
+  padding: 5px 0 5px 20px
+  margin: 5px 0
+
+.Section
+  margin: 10px 0
+  margin-top: 20px
+  padding: 10px
+  border: 1px solid #99d
+  position: relative
+  font-size: 11pt
+  text-align: left
+  font-weight: 500
+
+  p
+    margin: 0
+    text-indent: 20px  
+    line-height: 22px
+    text-align: justify
+
+  .Label
+    position: absolute
+    background: white
+    padding: 0 10px
+    left: 20px
+    top: -12px
+    font-size: 13pt
+    display: block
+    margin: 0

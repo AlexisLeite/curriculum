@@ -1,0 +1,58 @@
+@import ../variables.sass
+  
+.Header
+  padding: 20px 20px
+  display: flex
+  justify-content: center
+  align-items: center
+
+  background: $primary-background
+  color: $primary-color
+  text-shadow: 0 0 2px black
+
+  #ContactInfo
+    text-align: right
+    font-size: 10pt
+
+    *
+      font-weight: bold
+
+    a
+      display: block
+      text-decoration: none
+      color: $primary-color
+
+    span
+      transform: translateY(-11px)
+      display: inline-block
+
+      &:last-of-type
+        color: $highlight-color
+
+    svg 
+      font-size: 20pt
+      margin-left: 10px
+      padding: 2px
+  
+  #NameAndTitle
+    flex-grow: 1
+    text-align: left
+
+    h1
+      margin: 0
+      font-size: 28pt
+    
+    h3
+      font-size: 16pt
+      margin: 0
+      color: $highlight-color
+
+  #Foto
+    border-radius: 50%
+    margin-right: 20px
+    box-shadow: 0 0 6px 2px #0009
+    background-size: cover
+    background-repeat: no-repeat
+    background-position:  center center
+    width: 130px
+    height: 130px
