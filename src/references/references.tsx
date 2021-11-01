@@ -6,8 +6,8 @@ interface Props {}
 export default function References({}: Props): ReactElement {
   const References = [
     {
-      name: 'Marcel',
-      position: 'Debo consultar su cargo',
+      name: 'Marcel Ríos',
+      position: 'Docente de informática, robótica y telecomunicaciones en UTU.',
       phone: '093-528141',
     },
     {

@@ -24,6 +24,7 @@ export default function Studies({}: StudiesProps): ReactElement {
     nonFormalCertified: {
       label: 'Cursos certificados',
       details: [
+        'Javascript avanzado, certificación en curso',
         'Google Learn, introducción al desarrollo web I.',
         'Google Learn, introducción al desarrollo web II.',
         'Cognitive class, Python for data science.',
@@ -32,7 +33,7 @@ export default function Studies({}: StudiesProps): ReactElement {
       ],
     },
     nonFormal: {
-      label: 'Cursos no certificados',
+      label: 'Estudios no certificados',
       details: [
         'React.js en el portal oficial.',
         'Gatsby en el portal oficial.',

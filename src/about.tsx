@@ -7,7 +7,12 @@ export default function About({}: Props): ReactElement {
   return (
     <Section id="About" label="">
       <p>
-        Desarrollé el sitio web{' '}
+        Actualmente centro mi búsqueda en un cargo como desarrollador con la intención de
+        desarrollar todo mi potencial y lograr convertirme en un profesional destacado del área, así
+        como aportar el mayour valor a la empresa en la que me desempeñe.
+      </p>
+      <p>
+        En la búsqueda por aprender y mejorar mis habilidades, desarrollé el sitio web{' '}
         <a href="http://www.incipiosrl.com.uy" target="_blank" className="Highlight">
           www.incipiosrl.com.uy
         </a>
@@ -29,12 +34,6 @@ export default function About({}: Props): ReactElement {
           www.uyucode.net/curriculum
         </a>
         .
-      </p>
-      <p>
-        Actualmente centro mi búsqueda en un cargo como desarrollador con la franca intención de
-        desarrollar a cabalidad todo mi potencial y lograr convertirme en un profesional destacado
-        del área. Para acompañar ese proceso el año próximo comienzo la carrera de Ingeniería en
-        Computación, de la Universidad de la República.
       </p>
     </Section>
   );
