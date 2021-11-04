@@ -15,7 +15,7 @@ import Developed from './developed/developed';
 function Sheet() {
   return (
     <>
-      <div className="Sheet flexCenter">
+      <div className="Sheet">
         <Skills />
         <Header />
         <About />

@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react';
 import foto from '../../static/foto.jpg';
 import { IoLink, IoLogoGithub, IoLogoLinkedin, IoAtCircle, IoPhonePortrait } from 'react-icons/io5';
 import './header.sass';
+import { translate } from './../translations/translate';
 
 export function Photo() {
   return <div id="Foto" style={{ backgroundImage: `url("${foto}")` }}></div>;
@@ -65,9 +66,9 @@ export function ContactInfo() {
       <ContactRow
         Element={<IoPhonePortrait />}
         noBlank
-        to="tel:099105304"
+        to="tel:+59899105304"
         label=""
-        highlight="099105304"
+        highlight="+59899105304"
       />
     </div>
   );
@@ -79,7 +80,7 @@ export default function Header() {
       <Photo />
       <div id="NameAndTitle">
         <h1>Alexis Leite</h1>
-        <h3>Desarrollador web fullstack</h3>
+        <h3>{translate('Desarrollador web fullstack')}</h3>
       </div>
       <ContactInfo />
     </div>

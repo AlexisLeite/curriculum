@@ -1,0 +1,209 @@
+{
+  "Cargo": "Cargo",
+  "Contacto": "Contacto",
+  "Desarrollos realizados": "Desarrollos realizados",
+  "Desarrollador web fullstack": "Desarrollador web fullstack",
+  "Experiencia profesional": "Experiencia profesional",
+  "Empresa": "Empresa",
+  "Habilidades": "Habilidades",
+  "Referencias personales": "Referencias personales",
+  "Tel": "Tel",
+
+  "about_paragraph1": "Actualmente centro mi búsqueda en un cargo como desarrollador con la intención de desarrollar todo mi potencial y lograr convertirme en un profesional destacado del área, así como aportar el mayour valor a la empresa en la que me desempeñe.",
+  "about_paragraph2": "En la búsqueda por aprender y mejorar mis habilidades, desarrollé el sitio web{' '}<a href='http://www.incipiosrl.com.uy' target='_blank' className='Highlight'>www.incipiosrl.com.uy</a>, mi portal personal{' '}<a className='Highlight' href='http://www.uyucode.net' target='_blank'>www.uyucode.net</a>{' '}con su página de documentación{' '}<a className='Highlight' href='http://www.uyucode.net/documentación/matemagica' target='_blank'>www.uyucode.net/documentación/matemagica</a>{' '}así como varias aplicaciones, las cuales se pueden ver funcionando en el portal mencionado.{' '}Versión en línea:{' '}<a className='Highlight' href='http://www.uyucode.net/curriculum' target='_blank'>www.uyucode.net/curriculum</a>.",
+
+  "developed": [
+    {
+      "name": "Portal de Incipio Srl",
+      "counterPart": "Cra. Silvia Leite",
+      "description": "Portal de la empresa constructora Incipio Srl desarrollado en Gatsby.",
+      "link": "http://www.incipiosrl.com.uy"
+    },
+    {
+      "name": "Gestor de clientes",
+      "counterPart": "Eduardo Pérez",
+      "description": "Gestor de clientes y órdenes de trabajo para un taller de informática desarrollado en React, Express y MongoDB.",
+      "link": "http://www.uyucode.net/app/clienter/"
+    },
+    {
+      "name": "Matemagica, enseñanza de matemáticas",
+      "description": "Portal de enseñanza de matemáticas desarrollado en javascript y PHP con posibilidad de implementar nuevas secciones temáticas.",
+      "link": "http://www.uyucode.net/app/matemagica/"
+    },
+    {
+      "name": "Portal de documentación",
+      "description": "Portal desarrollado en Gatsby con la documentación correspondiente a las aplicaciones desarrolladas.",
+      "link": "http://www.uyucode.net/documentación/matemagica/"
+    },
+    {
+      "name": "Ta, te, ti con IA",
+      "description": "Juego de ta, te. ti desarrollado en React con inteligencia artificial desarrollada en PHP, enteramente por mi.",
+      "link": "http://www.uyucode.net/app/tic tac toe/"
+    },
+    {
+      "name": "Aplicación de chat",
+      "description": "Aplicación sencilla de chat desarrollada en React.",
+      "link": "http://www.uyucode.net/app/chat/"
+    },
+    {
+      "name": "Curriculum",
+      "description": "Este curriculum está desarrollado en React y Typescript, se puede ver su código fuente en GitHub.",
+      "link": "http://www.github.com/alexisleite/curriculum/"
+    }
+  ],
+
+  "professionalExperience": [
+    {
+      "company": "Incipio SRL",
+      "position": "Desarrollador web",
+      "since": "2018",
+      "to": "2021",
+      "responsibilities": ["Desarrollo y mantenimiento del sitio web de la empresa."],
+      "disengagementReason": "Tarea en curso",
+      "referer": {
+        "name": "Cra. Silvia Leite",
+        "position": "Directora financiera y Gerente en BPS",
+        "phone": "098-444058"
+      }
+    },
+    {
+      "company": "Automatismos Roma SA",
+      "position": "Oficial electricista",
+      "since": "12/2020",
+      "to": "10/2021",
+      "responsibilities": [
+        "Mantenimiento, reparación y diagnóstico de equipos de automatización.",
+        "Instalación de sistemas de automatización y relevamiento de datos.",
+        "Conducción de vehículo de la empresa con herramental específico del cargo."
+      ],
+      "disengagementReason": "Reestructura",
+      "referer": {
+        "name": "Andrés Iglesias",
+        "position": "Jefe técnico",
+        "phone": "098-807847"
+      }
+    },
+    {
+      "company": "Incipio SRL",
+      "position": "Oficial",
+      "since": "2017",
+      "to": "12/2020",
+      "responsibilities": [
+        "Instalación de equipos informáticos y redes en oficinas de la empresa.",
+        "Instalación de sistemas de alarmas y videovigilancia en obras.",
+        "Coordinación de equipos de recursos humanos."
+      ],
+      "disengagementReason": "Cambio de trabajo",
+      "referer": {
+        "name": "Arq. Andrea Barboza",
+        "position": "Directora de obras",
+        "phone": "092-178017"
+      }
+    },
+    {
+      "company": "Godilco SA",
+      "position": "Oficial",
+      "since": "2015",
+      "to": "2017",
+      "responsibilities": [
+        "Instalación y mantenimiento de sistemas de riego en planta de carga.",
+        "Mantenimiento y expansión de oficinas y talleres en planta."
+      ],
+      "disengagementReason": "Cambio de trabajo",
+      "referer": {
+        "name": "Luis Correa",
+        "position": "Capataz de planta",
+        "phone": "095-884665"
+      }
+    }
+  ],
+
+  "references": [
+    {
+      "name": "Marcel Ríos",
+      "position": "Docente de informática, robótica y telecomunicaciones en UTU.",
+      "phone": "093-528141"
+    },
+    {
+      "name": "Cra. Silvia Leite",
+      "position": "Gerente en BPS",
+      "phone": "098-444058"
+    },
+    {
+      "name": "Tec. Eduardo Pérez",
+      "position": "Taller de reparación de equipos informáticos",
+      "phone": "091-819875"
+    },
+    {
+      "name": "Tec. Marcelo Caffaro",
+      "position": "Técnico electricista",
+      "phone": "094-384864"
+    },
+    {
+      "name": "Tec. Eduardo Villar",
+      "position": "Técnico en electrónica en Automatismos Roma SA",
+      "phone": "095-529226"
+    }
+  ],
+
+  "studies": {
+    "formal": {
+      "label": "Estudios formales",
+      "details": [
+        "Primaria completa, Colegio San José.",
+        "Secundaria completa, orientación derecho con promedio 11.",
+        "6to de liceo orientación ingeniería en curso.",
+        "Bachillerato de informática en UTU 2do año no finalizado."
+      ]
+    },
+    "languages": {
+      "label": "Idiomas",
+      "details": [
+        "Inglés: First certificate of competency. ECCE Cambridge English Language Assessment."
+      ]
+    },
+    "nonFormalCertified": {
+      "label": "Cursos certificados",
+      "details": [
+        "Javascript avanzado, certificación en curso",
+        "Google Learn, introducción al desarrollo web I.",
+        "Google Learn, introducción al desarrollo web II.",
+        "Cognitive class, Python for data science.",
+        "Taller de informática, técnico en redes.",
+        "CoCap, mantenimiento eléctrico industrial."
+      ]
+    },
+    "nonFormal": {
+      "label": "Estudios no certificados",
+      "details": [
+        "React.js en el portal oficial.",
+        "Gatsby en el portal oficial.",
+        "Next.js en el portal oficial.",
+        "Keystone.js en el portal oficial.",
+        "Typescript en el portal oficial.",
+        "Ecmascript 6 en el portal oficial.",
+        "SASS en el portal oficial.",
+        "MongoDB y Mongoose en el portal oficial.",
+        "Express en el portal oficial.",
+        "Javascript, HTML y CSS en MDN y w3schools.",
+        "Jquery en el portal oficial.",
+        "Bootstrap en el portal oficial."
+      ]
+    }
+  },
+
+  "skills": [
+    { "score": 5, "label": "React.js" },
+    { "score": 5, "label": "Html 5" },
+    { "score": 5, "label": "PHP" },
+    { "score": 5, "label": "Javascript" },
+    { "score": 4, "label": "Typescript" },
+    { "score": 4, "label": "Gatsby" },
+    { "score": 4, "label": "Next.js" },
+    { "score": 4, "label": "Regex" },
+    { "score": 3, "label": "MongoDB" },
+    { "score": 3, "label": "Keyston.js" },
+    { "score": 3, "label": "Firebase" },
+    { "score": 3, "label": "GraphQl" }
+  ]
+}

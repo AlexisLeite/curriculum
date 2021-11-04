@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+require('dotenv').config({ path: './.env' });
+
 module.exports = {
   entry: './src/index.tsx',
   output: { path: path.join(__dirname, 'build'), filename: 'index.bundle.js' },
@@ -19,7 +21,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: ['ts-loader'],
+        use: ['ts-loader', path.resolve(__dirname, 'src/translations/translations.js')],
       },
       {
         test: /\.(css|scss|sass)$/,

@@ -1,0 +1,199 @@
+{
+  "Cargo": "Position",
+  "Contacto": "Contact",
+  "Desarrollos realizados": "Developed software",
+  "Empresa": "Company",
+  "Desarrollador web fullstack": "Fullstack web developer",
+  "Experiencia profesional": "Professional experience",
+  "Habilidades": "Skills",
+  "Referencias personales": "References",
+  "Tel": "Phone",
+
+  "about_paragraph1": "Nowadays, I am in an active job search process in the software development industry, intending to develop my skills to the top and become a top professional. I would love to put all of my effort and knowledge at the service of the company that hired me",
+  "about_paragraph2": "With the intention of learn and increase my skills, I developed the web site{' '}<a href='http://www.incipiosrl.com.uy' target='_blank' className='Highlight'>www.incipiosrl.com.uy</a>, my portfolio{' '}<a className='Highlight' href='http://www.uyucode.net' target='_blank'>www.uyucode.net</a>{' '}with it's documentation site{' '}<a className='Highlight' href='http://www.uyucode.net/en/documentation/matemagics' target='_blank'>www.uyucode.net/en/documentation/matemagics</a>{' '}as well as several web apps, which can be used online on my portfolio.{' '}",
+
+  "developed": [
+    {
+      "name": "Incipio Srl website",
+      "counterPart": "Cra. Silvia Leite",
+      "description": "Incipio SRL is a construction company. The website is developed in Gatsby.",
+      "link": "http://www.incipiosrl.com.uy"
+    },
+    {
+      "name": "Clients manager",
+      "counterPart": "Eduardo Pérez",
+      "description": "Clients and work orders manager developed on React, Express and MongoDB.",
+      "link": "http://www.uyucode.net/app/clienter/"
+    },
+    {
+      "name": "Matemagics, maths teaching app",
+      "description": "Website developed on jQuery and PHP which teachs maths to the kids.",
+      "link": "http://www.uyucode.net/app/matemagica/"
+    },
+    {
+      "name": "Portfolio",
+      "description": "Portfolio developed on Gatsby. It shows the different apps documentation and their online version.",
+      "link": "http://www.uyucode.net/documentación/matemagica/"
+    },
+    {
+      "name": "Tic, tac, toe agains AI",
+      "description": "Tic tac toe game developed on React which includes a small AI developed on PHP.",
+      "link": "http://www.uyucode.net/app/tic tac toe/"
+    },
+    {
+      "name": "Chat",
+      "description": "Simple chat developed on React and PHP.",
+      "link": "http://www.uyucode.net/app/chat/"
+    },
+    {
+      "name": "Curriculum",
+      "description": "This curricum was developed on React and accepts translations to any language. The source code is at github.",
+      "link": "http://www.github.com/alexisleite/curriculum/"
+    }
+  ],
+
+  "professionalExperience": [
+    {
+      "company": "Incipio SRL",
+      "position": "Web developer",
+      "since": "2018",
+      "to": "2021",
+      "responsibilities": ["Develop and mantainance of the company's website."],
+      "disengagementReason": "",
+      "referer": {
+        "name": "Cra. Silvia Leite",
+        "position": "Financial director",
+        "phone": "+59898-444058"
+      }
+    },
+    {
+      "company": "Automatismos Roma SA",
+      "position": "Electrical technician",
+      "since": "12/2020",
+      "to": "10/2021",
+      "responsibilities": [
+        "Mantainance, repairment and diagnosis of automation equipments.",
+        "Installation of equipments and surveys."
+      ],
+      "disengagementReason": "Restructuring",
+      "referer": {
+        "name": "Andrés Iglesias",
+        "position": "Technical chief",
+        "phone": "+59898-807847"
+      }
+    },
+    {
+      "company": "Incipio SRL",
+      "position": "Officer",
+      "since": "2017",
+      "to": "12/2020",
+      "responsibilities": [
+        "Installation of computer equipment and networks on the company offices.",
+        "Installation of alarm and video surveillance systems."
+      ],
+      "disengagementReason": "Job change",
+      "referer": {
+        "name": "Arq. Andrea Barboza",
+        "position": "Director of works",
+        "phone": "+59892-178017"
+      }
+    },
+    {
+      "company": "Godilco SA",
+      "position": "Officer",
+      "since": "2015",
+      "to": "2017",
+      "responsibilities": [
+        "Installation and mantainance of fire fighting systems, including 1.500 meters of tubes and more than 15 fire hydrants."
+      ],
+      "disengagementReason": "Job change",
+      "referer": {
+        "name": "Luis Correa",
+        "position": "Capataz de planta",
+        "phone": "+59895-884665"
+      }
+    }
+  ],
+
+  "references": [
+    {
+      "name": "Marcel Ríos",
+      "position": "Computer science, robotics and telecommunications teacher.",
+      "phone": "+59893-528141"
+    },
+    {
+      "name": "Cra. Silvia Leite",
+      "position": "Director at BPS.",
+      "phone": "+59898-444058"
+    },
+    {
+      "name": "Tec. Eduardo Pérez",
+      "position": "Computer repair shop.",
+      "phone": "+59891-819875"
+    },
+    {
+      "name": "Tec. Marcelo Caffaro",
+      "position": "Electrical techinician.",
+      "phone": "+59894-384864"
+    },
+    {
+      "name": "Tec. Eduardo Villar",
+      "position": "Electronics technician.",
+      "phone": "+59895-529226"
+    }
+  ],
+
+  "studies": {
+    "formal": {
+      "label": "Formal studies",
+      "details": ["Highschool on engineering.", "Computer science highschool."]
+    },
+    "languages": {
+      "label": "Languages",
+      "details": ["Spanish: Native.", "English: Intermediate / advanced."]
+    },
+    "nonFormalCertified": {
+      "label": "Certified courses",
+      "details": [
+        "Advanced javascript",
+        "Google Learn, introducción al desarrollo web I.",
+        "Google Learn, introducción al desarrollo web II.",
+        "Cognitive class, Python for data science.",
+        "Taller de informática, networks techician.",
+        "CoCap, industrial electrical mantainance."
+      ]
+    },
+    "nonFormal": {
+      "label": "Non-certified studies",
+      "details": [
+        "React.js official documentation.",
+        "Gatsby official documentation.",
+        "Next.js official documentation.",
+        "Keystone.js official documentation.",
+        "Typescript official documentation.",
+        "Ecmascript 6 official documentation.",
+        "SASS official documentation.",
+        "MongoDB y Mongoose official documentation.",
+        "Express official documentation.",
+        "Javascript, HTML y CSS en MDN y w3schools.",
+        "Jquery official documentation.",
+        "Bootstrap official documentation."
+      ]
+    }
+  },
+
+  "skills": [
+    { "score": 5, "label": "React.js" },
+    { "score": 5, "label": "Html 5" },
+    { "score": 5, "label": "PHP" },
+    { "score": 5, "label": "Javascript" },
+    { "score": 4, "label": "Typescript" },
+    { "score": 4, "label": "Gatsby" },
+    { "score": 4, "label": "Next.js" },
+    { "score": 4, "label": "Regex" },
+    { "score": 3, "label": "MongoDB" },
+    { "score": 3, "label": "Keyston.js" },
+    { "score": 3, "label": "Firebase" },
+    { "score": 3, "label": "GraphQl" }
+  ]
+}
